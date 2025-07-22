@@ -450,7 +450,6 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
 
-import MainFooter from '@/components/ui/MainFooter.vue'
 import { RouterLink } from 'vue-router'
 import api from '@/api'
 

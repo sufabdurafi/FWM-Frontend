@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api',
+  baseURL: 'https://fwm-backend-production-14fa.up.railway.app/api',
 })
 
 // Interceptor untuk menyisipkan token JWT jika ada

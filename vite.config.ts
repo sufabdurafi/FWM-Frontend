@@ -11,7 +11,7 @@ export default defineConfig({
   plugins: [vue(), vueDevTools(), tailwindcss(), vueJsx()],
   server: {
     proxy: {
-      '/api': 'http://localhost:8000',
+      '/api': 'https://fwm-backend-production-14fa.up.railway.app',
     },
   },
   resolve: {
