@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg-main: #232136;
+  --color-bg-card: #2a273f;
+  --color-border: #393552;
+  --color-primary: #a259ff;
+  --color-primary-hover: #9333ea;
+  --color-text-main: #fff;
+  --color-text-secondary: #a1a1aa;
+  --primary: #2563eb;
+  --secondary: #9333ea;
+  --accent: #f59e42;
+  --button: #2563eb;
+  --button-gradient-from: #2563eb;
+  --button-gradient-to: #9333ea;
+}
